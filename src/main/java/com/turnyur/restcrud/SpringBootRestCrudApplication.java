@@ -27,7 +27,7 @@ public class SpringBootRestCrudApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		Quote quote = quoteService.getRandomQuote();
-		         	LOG.info("\nRestSErvice\n");
+		         	LOG.info("\nRestService\n");
 		         	LOG.info(quote.toString());
 
 	}       		
